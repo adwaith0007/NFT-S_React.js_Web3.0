@@ -1,10 +1,12 @@
 .CollectionCard{
     
     background-color:#1a1c1e;
-    width: 300px;
-    height: 500px;
+    width: 260px;
+    height: 450px;
     border-radius: 30px;
     color: white;
+    cursor: pointer;
+    
 }
 .CollectionCard> img{
     display: flex;
@@ -15,6 +17,7 @@
 .wethImage{
     height: 23px;
     width: 15px;
+    padding:15px;
 }
 .priceContainer{
     display: flex;
@@ -25,7 +28,7 @@
     
 }
 .details{
-    padding:20px ;
+    padding:40px ;
     margin-right: 100px;
     margin-bottom: -10px;
 }
@@ -39,3 +42,6 @@
     font-weight: 600;
     margin-right: 115px;
 }
+.CollectionCard:hover{
+    transform: scale(1.1);
+  }
